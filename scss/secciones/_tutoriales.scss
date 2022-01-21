@@ -1,9 +1,7 @@
 .bodyTut{
     background-color: #63286b;
     background-image: url(../img/tutoriales.jpg);
-    background-position: center;
-}
-
+    background-position: center; }
 .indiceTut{
     display: grid;
     grid-template-columns: 20vw 40vw 20vw;
@@ -11,8 +9,7 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    align-items: center;
-}
+    align-items: center; }
 .videos{
     display: grid;
     grid-template-columns: repeat(2, 40em);
@@ -20,24 +17,19 @@
     column-gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
-
-}
-.videos section{
-    padding: 50px;
-}
-.videos a{
-    color: white;
-    text-decoration: none;
-        &:hover{
-            color:rgba(248, 248, 255, 0.801); } }
-.videos a:visited{
-    color: rgb(43, 43, 43);
-}
+    text-align: center; 
+        section{
+           padding: 50px; }
+        a{
+        color: white;
+        text-decoration: none;
+            &:hover{
+                color:rgba(248, 248, 255, 0.801); } }
+            &:visited{
+                color: rgb(43, 43, 43); } }
 .video{
     width: 100%;
-    aspect-ratio: 16/9;
-}
+    aspect-ratio: 16/9; }
 
 /* RESPONSIVE */
 
