@@ -1,5 +1,5 @@
 .bodyTut{
-    background-color: #63286b;
+    background-color: $bgtut;
     background-image: url(../img/tutoriales.jpg);
     background-position: center; }
 .indiceTut{
@@ -24,9 +24,9 @@
         color: white;
         text-decoration: none;
             &:hover{
-                color:rgba(248, 248, 255, 0.801); } }
+                color: $link2hover; } }
             &:visited{
-                color: rgb(43, 43, 43); } }
+                color: $link2visited; } }
 .video{
     width: 100%;
     aspect-ratio: 16/9; }
