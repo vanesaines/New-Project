@@ -1,0 +1,40 @@
+// 3- Variables (van siempre arriba de todo)
+@import './variables/colores';
+@import './variables/fuentes';
+// 2- Importaciones / Particiones
+// Utilidades
+@import './utilidades/header';
+@import './utilidades/footer';
+// Secciones
+@import './secciones/index';
+@import './secciones/tutoriales';
+@import './secciones/sucursales';
+@import './secciones/contacto';
+
+/* universal */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: "nasalization", sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
+
+/* MAIN */
+
+/* pages */
+.banner{
+    padding: 1rem;
+    width: 75%;
+    margin: 1rem auto 0rem;
+}
+.titPrincipal{
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}

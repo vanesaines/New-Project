@@ -1,0 +1,149 @@
+.bodyTut{
+    background-color: #63286b;
+    background-image: url(../img/tutoriales.jpg);
+    background-position: center;
+}
+
+.indiceTut{
+    display: grid;
+    grid-template-columns: 20vw 40vw 20vw;
+    grid-template-rows: 15em;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2, 40em);
+    grid-template-rows: repeat(12, 26em);
+    column-gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.videos section{
+    padding: 50px;
+}
+.videos a{
+    color: white;
+    text-decoration: none;
+}
+.videos a:hover{
+    color:rgba(248, 248, 255, 0.801);
+}
+.videos a:visited{
+    color: rgb(43, 43, 43);
+}
+.video{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1300px) {
+    /* tutoriales */
+    .video{
+        width: 80%;
+    }
+    .videos {
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "celda1"
+          "celda2"
+          "celda3"
+          "celda4"
+          "celda5"
+          "celda6"
+          "celda7"
+          "celda8"
+          "celda9"
+          "celda10"
+          "celda11"
+          "celda12"
+          "celda13"
+          "celda14"
+          "celda15";
+      }
+      .celda1 { grid-area: celda1; }
+      .celda2 { grid-area: celda2; }
+      .celda3 { grid-area: celda3; }
+      .celda4 { grid-area: celda4; }
+      .celda5 { grid-area: celda5; }
+      .celda6 { grid-area: celda6; }
+      .celda7 { grid-area: celda7; }
+      .celda8 { grid-area: celda8; }
+      .celda9 { grid-area: celda9; }
+      .celda10 { grid-area: celda10; }
+      .celda11 { grid-area: celda11; }
+      .celda12 { grid-area: celda12; }
+      .celda13 { grid-area: celda13; }
+      .celda14 { grid-area: celda14; }
+      .celda15 { grid-area: celda15; } }
+
+
+      @media (max-width: 1000px) {
+        /* tutoriales */
+        .indiceTut {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0px 0px;
+            grid-template-areas:
+              "imgtut1 parrafotut";
+            max-width: 80%;
+            margin: auto;
+          }
+        .imgtut1 { grid-area: imgtut1; }
+        .parrafotut { grid-area: parrafotut; }
+        .imgtut2{
+            display: none;
+        }
+        .videos {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-template-areas:
+              "celda1"
+              "celda2"
+              "celda3"
+              "celda4"
+              "celda5"
+              "celda6"
+              "celda7"
+              "celda8"
+              "celda9"
+              "celda10"
+              "celda11"
+              "celda12"
+              "celda13"
+              "celda14"
+              "celda15";
+          }
+          .celda1 { grid-area: celda1; }
+          .celda2 { grid-area: celda2; }
+          .celda3 { grid-area: celda3; }
+          .celda4 { grid-area: celda4; }
+          .celda5 { grid-area: celda5; }
+          .celda6 { grid-area: celda6; }
+          .celda7 { grid-area: celda7; }
+          .celda8 { grid-area: celda8; }
+          .celda9 { grid-area: celda9; }
+          .celda10 { grid-area: celda10; }
+          .celda11 { grid-area: celda11; }
+          .celda12 { grid-area: celda12; }
+          .celda13 { grid-area: celda13; }
+          .celda14 { grid-area: celda14; }
+          .celda15 { grid-area: celda15; } }
+
+
+@media (max-width: 584px) {
+    .parrafotut{
+        font-size: 0.7em;
+    }
+}
