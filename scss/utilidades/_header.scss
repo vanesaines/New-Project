@@ -1,6 +1,3 @@
-
-/* HEADER */
-
 header{
     position: sticky;
     top: 0%;
@@ -8,46 +5,35 @@ header{
     flex-direction: row;
     justify-content: space-between;
     height: 4rem;
-    backdrop-filter: blur(4px);
-}
+    backdrop-filter: blur(4px); }
 .inicioabreviado{
-    display: none;
-}
+    display: none; }
 nav ul{
     position: absolute;
     top: 0;
     right: 0;
     margin: 0.5rem;
-}
-nav ul li{
-    display: inline-block;
-    margin: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    transition: 0.9s;
-}
-nav ul li a:hover{
-    color: #381b46;
-}
+        li{
+            display: inline-block;
+            margin: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: 600; }
+            a {
+                text-decoration: none;
+                color: white;
+                transition: 0.9s;
+                    &:hover{
+                        color: #381b46; } 
+                    &::after{
+                        content: "";
+                        background-color: #381b46;
+                        width: 100%;
+                        height: 3px;
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        transform: scaleX(0);
+                        transform-origin: right;
+                        transition: transform 0.7s; } } }
 .pages{
-    transition: 0.9s;
-}
-nav ul li a::after{
-    content: "";
-    background-color: #381b46;
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.7s;
-}
-nav ul li a:hover::after{
-    transform-origin: left;    
-}
+    transition: 0.9s; }

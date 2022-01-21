@@ -21,6 +21,7 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+
 }
 .videos section{
     padding: 50px;
@@ -28,10 +29,8 @@
 .videos a{
     color: white;
     text-decoration: none;
-}
-.videos a:hover{
-    color:rgba(248, 248, 255, 0.801);
-}
+        &:hover{
+            color:rgba(248, 248, 255, 0.801); } }
 .videos a:visited{
     color: rgb(43, 43, 43);
 }
