@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'nasalization';
-  src: url("/css/font/nasalization-rg.ttf"); }
+  src: url("/css/font/nasalization-rg.ttf");
+  src: url("https://vanesaines.github.io/New-Project/font/nasalization-rg.ttf"); }
 
 header {
   position: sticky;
