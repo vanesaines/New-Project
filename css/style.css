@@ -45,6 +45,18 @@ nav ul {
 .pages {
   transition: 0.9s; }
 
+@media (max-width: 430px) {
+  header {
+    justify-content: center; }
+  .logo {
+    display: none; }
+  .logogrande {
+    display: none; }
+  .inicioabreviado {
+    text-align: center; }
+  nav ul {
+    position: relative; } }
+
 .footer {
   color: white;
   font-size: 1rem; }
@@ -265,10 +277,6 @@ nav ul {
   .img__in24 {
     grid-area: img__in24; } }
 
-@media (max-width: 430px) {
-  .desliza {
-    font-size: 1em; } }
-
 .bodyTut {
   background-color: #63286b;
   background-image: url(../img/tutoriales.jpg);
@@ -307,7 +315,6 @@ nav ul {
 
 /* RESPONSIVE */
 @media (max-width: 1300px) {
-  /* tutoriales */
   .video {
     width: 80%; }
   .videos {
@@ -348,7 +355,6 @@ nav ul {
     grid-area: celda15; } }
 
 @media (max-width: 1000px) {
-  /* tutoriales */
   .indiceTut {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -400,9 +406,15 @@ nav ul {
   .celda15 {
     grid-area: celda15; } }
 
-@media (max-width: 584px) {
+@media (max-width: 500px) {
   .parrafotut {
-    font-size: 0.7em; } }
+    font-size: 0.7em; }
+  .indiceTut {
+    display: none; }
+  .parrafotut {
+    display: none; }
+  .imgtut1 {
+    display: none; } }
 
 .bodySuc {
   background-color: #348924;

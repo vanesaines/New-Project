@@ -34,7 +34,6 @@
 /* RESPONSIVE */
 
 @media (max-width: 1300px) {
-    /* tutoriales */
     .video{
         width: 80%;
     }
@@ -78,7 +77,6 @@
 
 
       @media (max-width: 1000px) {
-        /* tutoriales */
         .indiceTut {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -133,11 +131,19 @@
           .celda15 { grid-area: celda15; } }
 
 
-@media (max-width: 584px) {
+@media (max-width: 500px) {
     .parrafotut{
         font-size: 0.7em;
     }
-    .imgtut1{
-        max-width: $ancho-imgtut1 /2 ;
+// new
+    .indiceTut {
+        display: none;  } 
+    .parrafotut{
+        display: none;
     }
-}
+    .imgtut1{
+        display: none;
+    }
+    
+    
+    }

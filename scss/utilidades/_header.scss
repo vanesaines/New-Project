@@ -37,3 +37,21 @@ nav ul{
                         transition: transform 0.7s; } } }
 .pages{
     transition: 0.9s; }
+
+
+    @media (max-width: 430px) {
+        header{
+            justify-content: center;
+        }
+        .logo{
+            display: none;}
+        .logogrande{
+            display: none;
+        }
+        .inicioabreviado{
+            text-align: center;
+        } 
+        nav ul{
+            position: relative;
+        }
+    }
