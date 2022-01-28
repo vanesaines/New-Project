@@ -24,6 +24,6 @@
     a. abrir la consola con ctrl+ñ
     b. npm run watch-css
 
-//FIN
+//FIN 
 
 
