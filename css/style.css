@@ -75,17 +75,9 @@ nav ul {
 
 .logogrande {
   width: 30%;
-  animation-name: fondo;
-  animation-duration: 4s;
-  animation-iteration-count: infinite; }
-
-@keyframes fondo {
-  0% {
-    filter: brightness(1); }
-  50% {
-    filter: brightness(0.8); }
-  100% {
-    filter: brightness(1); } }
+  cursor: pointer; }
+  .logogrande:hover {
+    opacity: 0.5; }
 
 .desliza {
   margin: 1em 1.5em; }
