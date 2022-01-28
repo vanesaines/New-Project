@@ -1,9 +1,9 @@
 .bodyIndex{
     background-color: $bgind;
-    background-image: url(../img/inicio.jpg); }
-.logoindex{
+    background-image: url(../img/inicio.jpg); 
     text-align: center; }
 .logogrande{
+    margin: -80px;
     width: 30%;
     cursor: pointer;
     &:hover {
