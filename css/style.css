@@ -301,8 +301,8 @@ nav ul {
     text-decoration: none; }
     .videos a:hover {
       color: rgba(248, 248, 255, 0.801); }
-  .videos:visited {
-    color: #2b2b2b; }
+    .videos a:visited {
+      color: #2b2b2b; }
 
 .video {
   width: 100%;
