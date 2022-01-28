@@ -1,15 +1,13 @@
 .bodyCont{
     background-color: $bgcon;
     background-image: url(../img/contacto.jpg); }
+    
 .formularios {
     display: grid;
     grid-template-columns: 25em 25em 25em;
     grid-template-rows: 15em 45em;
     justify-content: center;
     justify-items: center; }
-.subtitulo{
-    text-align: center;
-    font-size: 2em; }
 .imgcontacto{
     width: 15em;
     text-align: center; }

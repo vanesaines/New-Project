@@ -78,9 +78,6 @@ nav ul {
   .logogrande:hover {
     opacity: 0.5; }
 
-.desliza {
-  margin: 1em 1.5em; }
-
 .gridinicio {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -270,6 +267,11 @@ nav ul {
   .img__in24 {
     grid-area: img__in24; } }
 
+.quierocodigo > input {
+  background-color: violet;
+  color: #82ee82;
+  border-radius: 12px; }
+
 .bodyTut {
   background-color: #63286b;
   background-image: url(../img/tutoriales.jpg);
@@ -430,10 +432,6 @@ nav ul {
   justify-content: center;
   justify-items: center; }
 
-.subtitulo {
-  text-align: center;
-  font-size: 2em; }
-
 .imgcontacto {
   width: 15em;
   text-align: center; }
@@ -526,7 +524,12 @@ body {
   background-size: cover;
   background-position: initial; }
 
-.titPrincipal {
-  font-size: 2.5em;
+.titulo {
+  font-size: 2.4em;
+  display: flex;
+  justify-content: center; }
+
+.subtitulo {
+  font-size: 1.5em;
   display: flex;
   justify-content: center; }

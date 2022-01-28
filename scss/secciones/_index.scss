@@ -10,8 +10,6 @@
         opacity: 0.5;
     }
 }
-.desliza{
-    margin: 1em 1.5em; }
 .gridinicio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -132,6 +130,19 @@
 }
 
 
+@mixin button($color, $rounded_corners) {
+    background-color: $color;
+    color: complement($color);
+    @if $rounded_corners == true {
+        border-radius: 12px;
+    } @else {
+        border-radius: 0px;
+    }
+}
+
+.quierocodigo > input {
+    @include button(violet, true);
+}
 
     
     
