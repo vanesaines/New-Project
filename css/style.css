@@ -71,11 +71,13 @@ nav ul {
   text-align: center; }
 
 .logogrande {
-  margin: -60px;
   width: 30%;
   cursor: pointer; }
   .logogrande:hover {
     opacity: 0.5; }
+
+.desliza {
+  margin: 0px 20px 20px 20px; }
 
 .gridinicio {
   display: grid;

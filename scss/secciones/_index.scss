@@ -2,12 +2,14 @@
     background-image: url(../img/inicio.jpg); 
     text-align: center; }
 .logogrande{
-    margin: -60px;
     width: 30%;
     cursor: pointer;
     &:hover {
         opacity: 0.5;
     }
+}
+.desliza{
+    margin: 0px 20px 20px 20px;
 }
 .gridinicio{
     display: grid;
