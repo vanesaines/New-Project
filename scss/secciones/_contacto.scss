@@ -1,7 +1,15 @@
 .bodyCont{
     background-color: $bgcon;
     background-image: url(../img/contacto.jpg); }
-    
+@mixin kitdemarca{
+    font-family: "nasalization", sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    border-radius: 0.5rem;
+    border-color: white;
+}
 .formularios {
     display: grid;
     grid-template-columns: 25em 25em 25em;
@@ -25,10 +33,10 @@
     width: 80%;
     margin: 0.6rem;
     padding: 0.6rem;
-    border-radius: 0.5rem;
-    border-color: white;
     text-align: center;
-    font-family: "nasalization", sans-serif; }
+
+    @include kitdemarca;
+}
 .form__textarea{
     height: 5rem;
     resize: none; }

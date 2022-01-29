@@ -4,4 +4,6 @@
 .local__info {
     max-width: calc(100% - 2em);
     aspect-ratio: 1; 
-    @extend .hovers;}
+    @extend .hovers;
+    @include kitdemarca;
+}

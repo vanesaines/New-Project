@@ -17,12 +17,10 @@
 *{
     margin: 0%;
     padding: 0%; }
+
 body{
-    font-family: "nasalization", sans-serif;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: initial; }
+    @include kitdemarca
+}
 .titulo{
     font-size: 2.4em;
     text-align: center;

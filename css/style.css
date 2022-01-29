@@ -283,7 +283,6 @@ nav ul {
   grid-template-rows: 15em;
   justify-content: center;
   flex-wrap: wrap;
-  text-align: center;
   align-items: center; }
 
 .videos {
@@ -419,7 +418,14 @@ nav ul {
 
 .local__info {
   max-width: calc(100% - 2em);
-  aspect-ratio: 1; }
+  aspect-ratio: 1;
+  font-family: "nasalization", sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+  border-radius: 0.5rem;
+  border-color: white; }
 
 .bodyCont {
   background-color: #ee8967;
@@ -452,10 +458,14 @@ nav ul {
   width: 80%;
   margin: 0.6rem;
   padding: 0.6rem;
-  border-radius: 0.5rem;
-  border-color: white;
   text-align: center;
-  font-family: "nasalization", sans-serif; }
+  font-family: "nasalization", sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+  border-radius: 0.5rem;
+  border-color: white; }
 
 .form__textarea {
   height: 5rem;
@@ -522,7 +532,9 @@ body {
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: initial; }
+  background-position: initial;
+  border-radius: 0.5rem;
+  border-color: white; }
 
 .titulo {
   font-size: 2.4em;
