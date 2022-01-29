@@ -526,13 +526,11 @@ body {
 
 .titulo {
   font-size: 2.4em;
-  display: flex;
-  justify-content: center; }
+  text-align: center; }
 
 .subtitulo {
   font-size: 1.5em;
-  display: flex;
-  justify-content: center; }
+  text-align: center; }
 
 .hovers:hover, .indiceTut:hover, .local__info:hover, .subtitulo:hover {
   cursor: pointer;
