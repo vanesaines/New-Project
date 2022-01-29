@@ -1,10 +1,14 @@
 <!-- Nuevas modificaciones -->
-SEO :Agregue meta keywords y meta description en todas las pages
-Agregue alt a todas las imagenes
-Optimizacion del header responsive
-Optimizacion de accesibilidad en el header (colores y efectos para facilitar la ubicacion del usuario)
-Limpieza de header en page Inicio
-Cambio animacion por hover mucho mas agradable a la vista, en el logo del index
+SEO
+- Agregue meta keywords que varian por pagina, p ej la de inicio es:
+    <meta name="keywords" content="librerias, stationery, utiles escolares, colegio, resaltadores">
+- Agregue meta description que varian por pagina, p ej la de inicio es:
+    <meta name="description" content="Productos de libreria escolar y universitaria">
+- Agregue alt a todas las imagenes
+- Optimizacion del header responsive
+- Optimizacion de accesibilidad en el header (colores y efectos para facilitar la ubicacion del usuario)
+- Limpieza de header en page Inicio
+- Cambio animacion por hover mucho mas agradable a la vista, en el logo del index
 Extend: aplicado
 Mixin: aplicado
 Map: aplicado para fondos de cada page
