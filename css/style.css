@@ -532,7 +532,9 @@ body {
   background-size: cover;
   background-position: initial;
   border-radius: 0.5rem;
-  border-color: white; }
+  border-color: white;
+  color: white;
+  text-align: center; }
 
 .titulo {
   font-size: 2.4em;

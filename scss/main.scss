@@ -2,6 +2,7 @@
 @import './variables/colores';
 @import './variables/fuentes';
 @import './variables/tamanios';
+@import './variables/kitdemarca';
 // 2- Importaciones / Particiones
 // Utilidades
 @import './utilidades/header';
@@ -19,7 +20,9 @@
     padding: 0%; }
 
 body{
-    @include kitdemarca
+    @include kitdemarca;
+    color: map-get($kitdemarca, color);
+    text-align: map-get($kitdemarca, centro);
 }
 .titulo{
     font-size: 2.4em;
