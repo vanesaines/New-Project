@@ -37,5 +37,13 @@ body{
     }
 }
 
+@each $pagina, $background_color in $fondos_paginas {
+    .#{$pagina} {
+        background-color: $background_color;
+    }
+}
+
+// .index { background-color: #810082 }
+// .tutorial { background-color: #810082 }
 
 

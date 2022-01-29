@@ -67,7 +67,6 @@ nav ul {
   color: white; }
 
 .bodyIndex {
-  background-color: #810082;
   background-image: url(../img/inicio.jpg);
   text-align: center; }
 
@@ -273,7 +272,6 @@ nav ul {
   border-radius: 12px; }
 
 .bodyTut {
-  background-color: #63286b;
   background-image: url(../img/tutoriales.jpg);
   background-position: center; }
 
@@ -413,7 +411,6 @@ nav ul {
     display: none; } }
 
 .bodySuc {
-  background-color: #348924;
   background-image: url(../img/sucursales.jpg); }
 
 .local__info {
@@ -428,7 +425,6 @@ nav ul {
   border-color: white; }
 
 .bodyCont {
-  background-color: #ee8967;
   background-image: url(../img/contacto.jpg); }
 
 .formularios {
@@ -547,3 +543,15 @@ body {
 .hovers:hover, .indiceTut:hover, .local__info:hover, .subtitulo:hover {
   cursor: pointer;
   color: rgba(248, 248, 255, 0.801); }
+
+.bodyIndex {
+  background-color: #810082; }
+
+.bodyTut {
+  background-color: #63286b; }
+
+.bodySuc {
+  background-color: #348924; }
+
+.bodyCont {
+  background-color: #ee8967; }
