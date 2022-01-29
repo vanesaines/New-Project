@@ -8,6 +8,7 @@ Optimizacion del header responsive
 Optimizacion de accesibilidad en el header (colores y efectos para facilitar la ubicacion del usuario)
 Limpieza de header en page Inicio
 Cambio animacion por hover mucho mas agradable a la vista, en el logo del index
+Extend: aplicado
 
 
 Tarea
@@ -18,7 +19,7 @@ puedo usar xml sitemap (el archivo se guarda por fuera como el index.html)
 Ver diapositivas 70 y por ahi xq hay herramientas para mejorar el seo
 
 Desafio
-Aplicar map , mixin y extend
+Aplicar map , mixin 
 Mejorar el seo
 Hacer una nota de texto explicando los cambios
 ponerle color al icono en el q estamos
