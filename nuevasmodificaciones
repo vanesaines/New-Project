@@ -14,6 +14,7 @@ Mixin: aplicado
 Map: aplicado para fondos de cada page
 Map-get: aplicado para kit de marca
 Efecto CSS3: zoom y cambio de tamanio en imagenes de la grilla de inicio
+Photopea: optimizacion de calidad y tamanio de imagenes. La mayoria pesaba 200gb y las pase a 50gb.
 
 <!-- Pendiente para entregar -->
 - Mejorar el seo
