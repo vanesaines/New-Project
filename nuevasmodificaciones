@@ -4,7 +4,7 @@ SEO:
     <meta name="keywords" content="librerias, stationery, utiles escolares, colegio, resaltadores">
 - Agregue meta description que varian por pagina, p ej la de inicio es:
     <meta name="description" content="Productos de libreria escolar y universitaria">
-- Agregue alt a todas las imagenes
+- Agregue un juego en la seccion de inicio para que el usuario interactue y se vea atraido por la web
 - Optimizacion del header responsive
 - Optimizacion de accesibilidad en el header (colores y efectos para facilitar la ubicacion del usuario)
 - Limpieza de header en page Inicio
