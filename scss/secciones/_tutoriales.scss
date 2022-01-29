@@ -9,7 +9,8 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    @extend .hovers; }
 .videos{
     display: grid;
     grid-template-columns: repeat(2, 40em);

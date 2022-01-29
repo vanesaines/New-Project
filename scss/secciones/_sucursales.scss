@@ -3,4 +3,5 @@
     background-image: url(../img/sucursales.jpg); }
 .local__info {
     max-width: calc(100% - 2em);
-    aspect-ratio: 1; }
+    aspect-ratio: 1; 
+    @extend .hovers;}
