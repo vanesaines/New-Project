@@ -79,6 +79,10 @@ nav ul {
 .desliza {
   margin: 0px 20px 20px 20px; }
 
+.imgzoom:hover .imginicio {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3); }
+
 .gridinicio {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
