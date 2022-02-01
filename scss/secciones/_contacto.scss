@@ -1,5 +1,10 @@
 .bodyCont{
-    background-image: url(../img/contacto.jpg); }
+    background-image: url(../img/contacto.jpg);
+    .form{
+        input{
+        color: $bgcon;
+    }} 
+}
 @mixin kitdemarca{
     font-family: "nasalization", sans-serif;
     color: white;

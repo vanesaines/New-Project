@@ -1,6 +1,10 @@
 .bodyIndex{
     background-image: url(../img/inicio.jpg); 
-    text-align: center; }
+    text-align: center;
+    .form{
+    input{
+    color: $bgind;
+}} }
 .logogrande{
     width: 30%;
     cursor: pointer;

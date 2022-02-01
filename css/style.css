@@ -69,6 +69,8 @@ nav ul {
 .bodyIndex {
   background-image: url(../img/inicio.jpg);
   text-align: center; }
+  .bodyIndex .form input {
+    color: #810082; }
 
 .logogrande {
   width: 30%;
@@ -432,6 +434,8 @@ nav ul {
 
 .bodyCont {
   background-image: url(../img/contacto.jpg); }
+  .bodyCont .form input {
+    color: #ee8967; }
 
 .formularios {
   display: grid;
