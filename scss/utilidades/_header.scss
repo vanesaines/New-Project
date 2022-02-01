@@ -13,6 +13,7 @@ header{
 
 .inicioabreviado{
     display: none; }
+
 nav ul{
     position: absolute;
     top: 0;
@@ -43,7 +44,7 @@ nav ul{
     transition: 0.9s; }
 
 
-    @media (max-width: 430px) {
+    @media (max-width: 480px) {
         header{
             justify-content: center;
         }
@@ -57,5 +58,16 @@ nav ul{
         } 
         nav ul{
             position: relative;
+        }
+    }
+    @media (max-width: 470px) {
+        .logogrande{
+            display: flex;
+        }
+        .iniciochico{
+            display: none;
+        }
+        .inicio{
+            display: flex;
         }
     }

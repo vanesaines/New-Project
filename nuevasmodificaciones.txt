@@ -34,3 +34,9 @@ Nombres: optimizacion nombres de imagenes y su descripcion en ALT
         - tablet
     - recibir informacion para may, min o prov, habilitando botones https://www.w3schools.com/howto/howto_css_switch.asp
 - buscador animado https://www.w3schools.com/howto/howto_css_animated_search.asp
+
+Responsive
+Pantalla grande >1024px
+1024px > Ipad horizontal > 768px
+768px > Celular horizontal > 480px
+480px > Celular vertical 

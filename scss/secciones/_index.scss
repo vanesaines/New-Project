@@ -3,22 +3,12 @@
     text-align: center;
         .logogrande{
             width: 30%;
-            margin: -10vh auto -10vh;
+            margin: -2vh auto -7vh;
             cursor: pointer;
             &:hover {
                 opacity: 0.5; } }
         .subtitulo{
             margin-top: 5vh;}
-        .quienessomos{
-            margin: auto;
-            padding: 0vh 15vh 10vh 15vh;
-            text-align: center;
-            a{
-                color: white;
-                    &:hover{
-                        color: $link2hover; } 
-                    &:visited{
-                        color: $bgcon; } } }
         .juego{
             display: flex; }
         .form{
@@ -30,6 +20,16 @@
                     color: $bgind; }}
         .desliza{
             margin: 0px 20px 20px 20px; } }
+.quienessomos{
+    margin: auto;
+    padding: 0vh 15vh 10vh 15vh;
+    text-align: center;
+    a{
+        color: white;
+            &:hover{
+                color: $link2hover; } 
+            &:visited{
+                color: $bgcon; } } }
 .imgzoom:hover .imginicio {-webkit-transform:scale(1.3);transform:scale(1.3);}
 .gridinicio{
     display: grid;
@@ -71,7 +71,7 @@
     width: 100%; }
 
 // responsive
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
     /* inicio */
     .gridinicio {
         display: grid;
@@ -114,8 +114,17 @@
       .img__in25 { grid-area: img__in25; }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 768px) {
     /* inicio */
+    .quienessomos{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-size: 0.7em;
+        padding: 0vh 5vh 1vh 5vh;
+    }
+    .quiensoy{
+        display: none;
+    }
     .gridinicio {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -149,21 +158,3 @@
       .img__in23 { grid-area: img__in23; }
       .img__in24 { grid-area: img__in24; }
 }
-
-
-@mixin button($color, $rounded_corners) {
-    background-color: $color;
-    color: complement($color);
-    @if $rounded_corners == true {
-        border-radius: 12px;
-    } @else {
-        border-radius: 0px;
-    }
-}
-
-.quierocodigo > input {
-    @include button(violet, true);
-}
-
-    
-    

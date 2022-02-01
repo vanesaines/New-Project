@@ -47,7 +47,7 @@ nav ul {
 .pages {
   transition: 0.9s; }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
   header {
     justify-content: center; }
   .logo {
@@ -58,6 +58,14 @@ nav ul {
     text-align: center; }
   nav ul {
     position: relative; } }
+
+@media (max-width: 470px) {
+  .logogrande {
+    display: flex; }
+  .iniciochico {
+    display: none; }
+  .inicio {
+    display: flex; } }
 
 .footer {
   color: white;
@@ -71,22 +79,12 @@ nav ul {
   text-align: center; }
   .bodyIndex .logogrande {
     width: 30%;
-    margin: -10vh auto -10vh;
+    margin: -2vh auto -7vh;
     cursor: pointer; }
     .bodyIndex .logogrande:hover {
       opacity: 0.5; }
   .bodyIndex .subtitulo {
     margin-top: 5vh; }
-  .bodyIndex .quienessomos {
-    margin: auto;
-    padding: 0vh 15vh 10vh 15vh;
-    text-align: center; }
-    .bodyIndex .quienessomos a {
-      color: white; }
-      .bodyIndex .quienessomos a:hover {
-        color: rgba(248, 248, 255, 0.801); }
-      .bodyIndex .quienessomos a:visited {
-        color: #ee8967; }
   .bodyIndex .juego {
     display: flex; }
   .bodyIndex .form {
@@ -98,6 +96,17 @@ nav ul {
       color: #810082; }
   .bodyIndex .desliza {
     margin: 0px 20px 20px 20px; }
+
+.quienessomos {
+  margin: auto;
+  padding: 0vh 15vh 10vh 15vh;
+  text-align: center; }
+  .quienessomos a {
+    color: white; }
+    .quienessomos a:hover {
+      color: rgba(248, 248, 255, 0.801); }
+    .quienessomos a:visited {
+      color: #ee8967; }
 
 .imgzoom:hover .imginicio {
   -webkit-transform: scale(1.3);
@@ -188,7 +197,7 @@ nav ul {
 .imginicio {
   width: 100%; }
 
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
   /* inicio */
   .gridinicio {
     display: grid;
@@ -247,8 +256,15 @@ nav ul {
   .img__in25 {
     grid-area: img__in25; } }
 
-@media (max-width: 840px) {
+@media (max-width: 768px) {
   /* inicio */
+  .quienessomos {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 0.7em;
+    padding: 0vh 5vh 1vh 5vh; }
+  .quiensoy {
+    display: none; }
   .gridinicio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -291,11 +307,6 @@ nav ul {
     grid-area: img__in23; }
   .img__in24 {
     grid-area: img__in24; } }
-
-.quierocodigo > input {
-  background-color: violet;
-  color: #82ee82;
-  border-radius: 12px; }
 
 .bodyTut {
   background-image: url(../img/tutoriales.jpg);
