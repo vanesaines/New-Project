@@ -52,14 +52,10 @@ nav ul {
     justify-content: center; }
   .logo {
     display: none; }
-  .logogrande {
-    display: none; }
   .inicioabreviado {
     text-align: center; }
   nav ul {
-    position: relative; } }
-
-@media (max-width: 470px) {
+    position: relative; }
   .logogrande {
     display: flex; }
   .iniciochico {
@@ -79,7 +75,7 @@ nav ul {
   text-align: center; }
   .bodyIndex .logogrande {
     width: 30%;
-    margin: -2vh auto -7vh;
+    margin: -2vh auto -4vh;
     cursor: pointer; }
     .bodyIndex .logogrande:hover {
       opacity: 0.5; }
@@ -306,10 +302,6 @@ nav ul {
     grid-area: img__in23; }
   .img__in24 {
     grid-area: img__in24; } }
-
-@media (max-width: 480px) {
-  .quienessomos {
-    padding-top: 8vh; } }
 
 .bodyTut {
   background-image: url(../img/tutoriales.jpg);

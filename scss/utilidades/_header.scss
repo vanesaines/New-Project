@@ -49,8 +49,6 @@ nav ul{
             justify-content: center;
         }
         .logo{
-            display: none;}
-        .logogrande{
             display: none;
         }
         .inicioabreviado{
@@ -59,8 +57,6 @@ nav ul{
         nav ul{
             position: relative;
         }
-    }
-    @media (max-width: 470px) {
         .logogrande{
             display: flex;
         }
