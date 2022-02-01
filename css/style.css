@@ -257,7 +257,6 @@ nav ul {
     grid-area: img__in25; } }
 
 @media (max-width: 768px) {
-  /* inicio */
   .quienessomos {
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -307,6 +306,10 @@ nav ul {
     grid-area: img__in23; }
   .img__in24 {
     grid-area: img__in24; } }
+
+@media (max-width: 480px) {
+  .quienessomos {
+    padding-top: 8vh; } }
 
 .bodyTut {
   background-image: url(../img/tutoriales.jpg);
