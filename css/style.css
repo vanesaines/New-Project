@@ -61,7 +61,9 @@ nav ul {
   .iniciochico {
     display: none; }
   .inicio {
-    display: flex; } }
+    display: flex; }
+  .header {
+    backdrop-filter: blur(4px); } }
 
 .footer {
   color: white;
