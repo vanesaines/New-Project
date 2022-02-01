@@ -27,6 +27,7 @@ Nombres: optimizacion nombres de imagenes y su descripcion en ALT
 - Ver diapositivas 70 y por ahi xq hay herramientas para mejorar el seo
 
 <!-- Pendiente para Febrero -->
+- mejorar calidad img de fondo
 - mejorar formularios
     - responsive
         - celular> popup form https://www.w3schools.com/howto/howto_js_popup_form.asp
