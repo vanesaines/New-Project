@@ -115,7 +115,6 @@
 }
 
 @media (max-width: 768px) {
-    /* inicio */
     .quienessomos{
         padding-top: 5vh;
         padding-bottom: 5vh;
@@ -158,3 +157,6 @@
       .img__in23 { grid-area: img__in23; }
       .img__in24 { grid-area: img__in24; }
 }
+@media (max-width: 480px) {
+    .quienessomos{
+        padding-top: 8vh; } }
