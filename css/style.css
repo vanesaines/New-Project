@@ -69,26 +69,35 @@ nav ul {
 .bodyIndex {
   background-image: url(../img/inicio.jpg);
   text-align: center; }
-  .bodyIndex .form input {
-    color: #810082; }
-
-.logogrande {
-  width: 30%;
-  cursor: pointer; }
-  .logogrande:hover {
-    opacity: 0.5; }
-
-.quienessomos {
-  margin: 0px 15vh 15vh 15vh; }
-  .quienessomos a {
-    color: white; }
-    .quienessomos a:hover {
-      color: rgba(248, 248, 255, 0.801); }
-    .quienessomos a:visited {
-      color: #ee8967; }
-
-.desliza {
-  margin: 0px 20px 20px 20px; }
+  .bodyIndex .logogrande {
+    width: 30%;
+    margin: -10vh auto -10vh;
+    cursor: pointer; }
+    .bodyIndex .logogrande:hover {
+      opacity: 0.5; }
+  .bodyIndex .subtitulo {
+    margin-top: 5vh; }
+  .bodyIndex .quienessomos {
+    margin: auto;
+    padding: 0vh 15vh 10vh 15vh;
+    text-align: center; }
+    .bodyIndex .quienessomos a {
+      color: white; }
+      .bodyIndex .quienessomos a:hover {
+        color: rgba(248, 248, 255, 0.801); }
+      .bodyIndex .quienessomos a:visited {
+        color: #ee8967; }
+  .bodyIndex .juego {
+    display: flex; }
+  .bodyIndex .form {
+    width: 70%;
+    margin: 0rem auto 15vh;
+    padding: 0rem 1rem;
+    text-align: center; }
+    .bodyIndex .form input {
+      color: #810082; }
+  .bodyIndex .desliza {
+    margin: 0px 20px 20px 20px; }
 
 .imgzoom:hover .imginicio {
   -webkit-transform: scale(1.3);
