@@ -37,6 +37,6 @@ Nombres: optimizacion nombres de imagenes y su descripcion en ALT
 
 Responsive
 Pantalla grande >1024px
-1024px > Ipad horizontal > 768px
-768px > Celular horizontal > 480px
-480px > Celular vertical 
+(1024px) > Ipad horizontal > 768px
+(768px) > Celular horizontal > 480px
+(480px) > Celular vertical 

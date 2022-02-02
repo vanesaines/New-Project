@@ -61,9 +61,7 @@ nav ul {
   .iniciochico {
     display: none; }
   .inicio {
-    display: flex; }
-  .header {
-    backdrop-filter: blur(4px); } }
+    display: flex; } }
 
 .footer {
   color: white;
@@ -196,7 +194,6 @@ nav ul {
   width: 100%; }
 
 @media (max-width: 1024px) {
-  /* inicio */
   .gridinicio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -320,7 +317,7 @@ nav ul {
 .videos {
   display: grid;
   grid-template-columns: repeat(2, 40em);
-  grid-template-rows: repeat(12, 26em);
+  grid-template-rows: repeat(11, 26em);
   column-gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
@@ -334,20 +331,18 @@ nav ul {
       color: rgba(248, 248, 255, 0.801); }
     .videos a:visited {
       color: #2b2b2b; }
-
-.video {
-  width: 100%;
-  aspect-ratio: 16/9; }
+  .videos .video {
+    width: 100%;
+    aspect-ratio: 16/9; }
 
 /* RESPONSIVE */
 @media (max-width: 1300px) {
   .video {
-    width: 80%; }
+    width: 95%; }
   .videos {
     display: grid;
     grid-template-columns: 80%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
     grid-template-areas: "celda1" "celda2" "celda3" "celda4" "celda5" "celda6" "celda7" "celda8" "celda9" "celda10" "celda11" "celda12" "celda13" "celda14" "celda15"; }
   .celda1 {
     grid-area: celda1; }
@@ -380,7 +375,7 @@ nav ul {
   .celda15 {
     grid-area: celda15; } }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .indiceTut {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -391,50 +386,16 @@ nav ul {
     margin: auto; }
   .imgtut1 {
     grid-area: imgtut1; }
-  .fun {
-    display: none; }
   .parrafotut {
     grid-area: parrafotut; }
-  .imgtut2 {
+  .fun {
     display: none; }
-  .videos {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "celda1" "celda2" "celda3" "celda4" "celda5" "celda6" "celda7" "celda8" "celda9" "celda10" "celda11" "celda12" "celda13" "celda14" "celda15"; }
-  .celda1 {
-    grid-area: celda1; }
-  .celda2 {
-    grid-area: celda2; }
-  .celda3 {
-    grid-area: celda3; }
-  .celda4 {
-    grid-area: celda4; }
-  .celda5 {
-    grid-area: celda5; }
-  .celda6 {
-    grid-area: celda6; }
-  .celda7 {
-    grid-area: celda7; }
-  .celda8 {
-    grid-area: celda8; }
-  .celda9 {
-    grid-area: celda9; }
-  .celda10 {
-    grid-area: celda10; }
-  .celda11 {
-    grid-area: celda11; }
-  .celda12 {
-    grid-area: celda12; }
-  .celda13 {
-    grid-area: celda13; }
-  .celda14 {
-    grid-area: celda14; }
-  .celda15 {
-    grid-area: celda15; } }
+  .videos section {
+    padding: 35px; }
+  .imgtut2 {
+    display: none; } }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .parrafotut {
     font-size: 0.7em; }
   .indiceTut {
@@ -442,7 +403,13 @@ nav ul {
   .parrafotut {
     display: none; }
   .imgtut1 {
-    display: none; } }
+    display: none; }
+  .videos section {
+    padding: 20px; } }
+
+@media (max-width: 425px) {
+  h5 {
+    font-size: 1rem; } }
 
 .bodySuc {
   background-image: url(../img/sucursales.jpg); }

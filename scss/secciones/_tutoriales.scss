@@ -8,8 +8,7 @@
     background-size: cover;
     background-position: initial;
     border-radius: 0.5rem;
-    border-color: white;
-    }
+    border-color: white; }
 .indiceTut{
     display: grid;
     grid-template-columns: 20vw 40vw 20vw;
@@ -21,7 +20,7 @@
 .videos{
     display: grid;
     grid-template-columns: repeat(2, 40em);
-    grid-template-rows: repeat(12, 26em);
+    grid-template-rows: repeat(11, 26em);
     column-gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
@@ -34,22 +33,20 @@
             &:hover{
                 color: $link2hover; } 
             &:visited{
-                color: $link2visited; } } }
-.video{
-    width: 100%;
-    aspect-ratio: 16/9; }
+                color: $link2visited; } } 
+    .video{
+        width: 100%;
+        aspect-ratio: 16/9; } }
 
 /* RESPONSIVE */
 
 @media (max-width: 1300px) {
     .video{
-        width: 80%;
-    }
+        width: 95%; }
     .videos {
         display: grid;
         grid-template-columns: 80%;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 0px 0px;
         grid-template-areas:
           "celda1"
           "celda2"
@@ -65,8 +62,7 @@
           "celda12"
           "celda13"
           "celda14"
-          "celda15";
-      }
+          "celda15"; }
       .celda1 { grid-area: celda1; }
       .celda2 { grid-area: celda2; }
       .celda3 { grid-area: celda3; }
@@ -83,78 +79,37 @@
       .celda14 { grid-area: celda14; }
       .celda15 { grid-area: celda15; } }
 
+@media (max-width: 1024px) {
+    .indiceTut {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "imgtut1 parrafotut";
+        max-width: 80%;
+        margin: auto; }
+    .imgtut1 { grid-area: imgtut1; }
+    .parrafotut { grid-area: parrafotut; }    
+    .fun{
+        display: none; }
+    .videos section {
+        padding: 35px; }
+    .imgtut2{
+        display: none; } }
 
-      @media (max-width: 1000px) {
-        .indiceTut {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr;
-            gap: 0px 0px;
-            grid-template-areas:
-              "imgtut1 parrafotut";
-            max-width: 80%;
-            margin: auto;
-          }
-        .imgtut1 { grid-area: imgtut1; }
-        .fun{
-            display: none;
-        }
-        .parrafotut { grid-area: parrafotut; }
-        .imgtut2{
-            display: none;
-        }
-        .videos {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            gap: 0px 0px;
-            grid-template-areas:
-              "celda1"
-              "celda2"
-              "celda3"
-              "celda4"
-              "celda5"
-              "celda6"
-              "celda7"
-              "celda8"
-              "celda9"
-              "celda10"
-              "celda11"
-              "celda12"
-              "celda13"
-              "celda14"
-              "celda15";
-          }
-          .celda1 { grid-area: celda1; }
-          .celda2 { grid-area: celda2; }
-          .celda3 { grid-area: celda3; }
-          .celda4 { grid-area: celda4; }
-          .celda5 { grid-area: celda5; }
-          .celda6 { grid-area: celda6; }
-          .celda7 { grid-area: celda7; }
-          .celda8 { grid-area: celda8; }
-          .celda9 { grid-area: celda9; }
-          .celda10 { grid-area: celda10; }
-          .celda11 { grid-area: celda11; }
-          .celda12 { grid-area: celda12; }
-          .celda13 { grid-area: celda13; }
-          .celda14 { grid-area: celda14; }
-          .celda15 { grid-area: celda15; } }
-
-
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .parrafotut{
-        font-size: 0.7em;
-    }
-// new
+        font-size: 0.7em; }
     .indiceTut {
         display: none;  } 
     .parrafotut{
-        display: none;
-    }
+        display: none; }
     .imgtut1{
-        display: none;
-    }
-    
-    
-    }
+        display: none; }
+    .videos section {
+        padding: 20px; } }
+
+@media (max-width: 425px) {
+    h5{
+        font-size: 1rem; } }
