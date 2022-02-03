@@ -1,76 +1,8 @@
 .bodySuc{
-    background-image: url(../img/sucursales.jpg); 
-text-align: center;}
-
-
-.fila {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-align-content: center;
-align-items: center;
-justify-content: center;
-    grid-template-areas: 
-      "piclocal alien parrafo mapa"; 
-  }
-  .piclocal { grid-area: piclocal; }
-  .alien { grid-area: alien; }
-  .parrafo { grid-area: parrafo; }
-  .mapa { 
-      grid-area: mapa; 
-      width: 210px;
-    }
-
-.cuadro  {
-    width: 210px;
+    background-image: url(../img/sucursales.jpg); }
+.local__info {
+    max-width: calc(100% - 2em);
     aspect-ratio: 1; 
     @extend .hovers;
     @include kitdemarca;
-}
-@media (max-width: 1024px) {
-.parrafo {
-    font-size: 12px;
-} }
-
-@media (max-width: 768px) {
-.fila {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "piclocal parrafo mapa"; 
-  }
-  .piclocal { grid-area: piclocal; }
-  .parrafo { grid-area: parrafo; }
-  .mapa { grid-area: mapa; }
-  .alien {
-      display: none;
-  }
-}
-
-@media (max-width: 425px) {
-
-    .fila{
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "parrafo fila"; 
-      }
-      .parrafo { grid-area: parrafo; }
-      .fila {
-        display: grid; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr 1fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "mapa"
-          "piclocal"; 
-        grid-area: fila; 
-      }
-      .mapa { grid-area: mapa; }
-      .piclocal { grid-area: piclocal; }
-
 }
