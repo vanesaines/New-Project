@@ -6,3 +6,9 @@
     @extend .hovers;
     @include kitdemarca;
 }
+.row{
+    align-items: center;
+}
+@media (max-width: 575px) {
+
+}

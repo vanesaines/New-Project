@@ -425,6 +425,9 @@ nav ul {
   border-radius: 0.5rem;
   border-color: white; }
 
+.row {
+  align-items: center; }
+
 .bodyCont {
   background-image: url(../img/contacto.jpg); }
   .bodyCont .form input {
