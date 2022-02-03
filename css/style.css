@@ -428,6 +428,14 @@ nav ul {
 .row {
   align-items: center; }
 
+@media (max-width: 575px) {
+  .local__info {
+    width: 200px;
+    display: inline; }
+  .subtitulo {
+    margin-top: 30px;
+    margin-bottom: -30px; } }
+
 .bodyCont {
   background-image: url(../img/contacto.jpg); }
   .bodyCont .form input {
