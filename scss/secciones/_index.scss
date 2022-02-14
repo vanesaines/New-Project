@@ -22,7 +22,7 @@
             margin: 0px 20px 20px 20px; } }
 .quienessomos{
     margin: auto;
-    padding: 0vh 15vh 10vh 15vh;
+    padding: 0vh 35vh 10vh 35vh;
     text-align: center;
     a{
         color: white;
@@ -35,7 +35,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 4px;
+    gap: 10px 10px;
     grid-template-areas:
       "img__in2 img__in3 img__in4 img__in1 img__in5"
       "img__in6 img__in7 img__in8 img__in9 img__in13"
@@ -76,7 +76,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 0px 4px;
         grid-template-areas:
           "img__in1 img__in2 img__in3 img__in4"
           "img__in5 img__in6 img__in7 img__in8"
@@ -127,7 +126,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 0px 4px;
         grid-template-areas:
           "img__in2 img__in3 img__in4"
           "img__in6 img__in7 img__in8"
