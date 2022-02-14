@@ -542,9 +542,7 @@ nav ul {
     display: inline;
     text-decoration: none;
     color: white;
-    text-decoration: none; }
-    .smformulario:hover {
-      color: rgba(248, 248, 255, 0.801); } }
+    text-decoration: none; } }
 
 /* universal */
 * {
