@@ -94,7 +94,8 @@ nav ul {
     margin: 0px 20px 20px 20px; }
 
 .quienessomos {
-  padding: 0vh 35vh 10vh 35vh;
+  margin: auto;
+  padding: 0vh 15vh 10vh 15vh;
   text-align: center; }
   .quienessomos a {
     color: white; }
@@ -111,7 +112,83 @@ nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 10px 10px; }
+  gap: 0px 4px;
+  grid-template-areas: "img__in2 img__in3 img__in4 img__in1 img__in5" "img__in6 img__in7 img__in8 img__in9 img__in13" "img__in10 img__in11 img__in12 img__in17 img__in21" "img__in14 img__in15 img__in16 img__in22 img__in23" "img__in18 img__in19 img__in20 img__in24 img__in25"; }
+
+.img__in2 {
+  grid-area: img__in2; }
+
+.img__in3 {
+  grid-area: img__in3; }
+
+.img__in4 {
+  grid-area: img__in4; }
+
+.img__in6 {
+  grid-area: img__in6; }
+
+.img__in7 {
+  grid-area: img__in7; }
+
+.img__in8 {
+  grid-area: img__in8; }
+
+.img__in10 {
+  grid-area: img__in10; }
+
+.img__in11 {
+  grid-area: img__in11; }
+
+.img__in12 {
+  grid-area: img__in12; }
+
+.img__in14 {
+  grid-area: img__in14; }
+
+.img__in15 {
+  grid-area: img__in15; }
+
+.img__in16 {
+  grid-area: img__in16; }
+
+.img__in18 {
+  grid-area: img__in18; }
+
+.img__in19 {
+  grid-area: img__in19; }
+
+.img__in20 {
+  grid-area: img__in20; }
+
+.img__in1 {
+  grid-area: img__in1; }
+
+.img__in5 {
+  grid-area: img__in5; }
+
+.img__in9 {
+  grid-area: img__in9; }
+
+.img__in13 {
+  grid-area: img__in13; }
+
+.img__in17 {
+  grid-area: img__in17; }
+
+.img__in21 {
+  grid-area: img__in21; }
+
+.img__in22 {
+  grid-area: img__in22; }
+
+.img__in23 {
+  grid-area: img__in23; }
+
+.img__in24 {
+  grid-area: img__in24; }
+
+.img__in25 {
+  grid-area: img__in25; }
 
 .imginicio {
   width: 100%; }
@@ -121,7 +198,58 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 4px; } }
+    gap: 0px 4px;
+    grid-template-areas: "img__in1 img__in2 img__in3 img__in4" "img__in5 img__in6 img__in7 img__in8" "img__in9 img__in10 img__in11 img__in12" "img__in13 img__in14 img__in15 img__in16" "img__in17 img__in18 img__in19 img__in20" "img__in21 img__in22 img__in23 img__in24" "img__in25 . . ."; }
+  .img__in1 {
+    grid-area: img__in1; }
+  .img__in2 {
+    grid-area: img__in2; }
+  .img__in3 {
+    grid-area: img__in3; }
+  .img__in4 {
+    grid-area: img__in4; }
+  .img__in5 {
+    grid-area: img__in5; }
+  .img__in6 {
+    grid-area: img__in6; }
+  .img__in7 {
+    grid-area: img__in7; }
+  .img__in8 {
+    grid-area: img__in8; }
+  .img__in9 {
+    grid-area: img__in9; }
+  .img__in10 {
+    grid-area: img__in10; }
+  .img__in11 {
+    grid-area: img__in11; }
+  .img__in12 {
+    grid-area: img__in12; }
+  .img__in13 {
+    grid-area: img__in13; }
+  .img__in14 {
+    grid-area: img__in14; }
+  .img__in15 {
+    grid-area: img__in15; }
+  .img__in16 {
+    grid-area: img__in16; }
+  .img__in17 {
+    grid-area: img__in17; }
+  .img__in18 {
+    grid-area: img__in18; }
+  .img__in19 {
+    grid-area: img__in19; }
+  .img__in20 {
+    grid-area: img__in20; }
+  .img__in21 {
+    grid-area: img__in21; }
+  .img__in22 {
+    grid-area: img__in22; }
+  .img__in23 {
+    grid-area: img__in23; }
+  .img__in24 {
+    grid-area: img__in24; }
+  .img__in25 {
+    grid-area: img__in25; } }
 
 @media (max-width: 768px) {
   .quienessomos {
@@ -135,7 +263,44 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 4px; } }
+    gap: 0px 4px;
+    grid-template-areas: "img__in2 img__in3 img__in4" "img__in6 img__in7 img__in8" "img__in10 img__in11 img__in12" "img__in14 img__in15 img__in16" "img__in18 img__in19 img__in20" "img__in22 img__in23 img__in24" ". . ."; }
+  .img__in2 {
+    grid-area: img__in2; }
+  .img__in3 {
+    grid-area: img__in3; }
+  .img__in4 {
+    grid-area: img__in4; }
+  .img__in6 {
+    grid-area: img__in6; }
+  .img__in7 {
+    grid-area: img__in7; }
+  .img__in8 {
+    grid-area: img__in8; }
+  .img__in10 {
+    grid-area: img__in10; }
+  .img__in11 {
+    grid-area: img__in11; }
+  .img__in12 {
+    grid-area: img__in12; }
+  .img__in14 {
+    grid-area: img__in14; }
+  .img__in15 {
+    grid-area: img__in15; }
+  .img__in16 {
+    grid-area: img__in16; }
+  .img__in18 {
+    grid-area: img__in18; }
+  .img__in19 {
+    grid-area: img__in19; }
+  .img__in20 {
+    grid-area: img__in20; }
+  .img__in22 {
+    grid-area: img__in22; }
+  .img__in23 {
+    grid-area: img__in23; }
+  .img__in24 {
+    grid-area: img__in24; } }
 
 .bodyTut {
   background-image: url(../img/tutoriales.jpg);
