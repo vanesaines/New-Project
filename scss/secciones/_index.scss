@@ -72,6 +72,9 @@
 
 // responsive
 @media (max-width: 1024px) {
+    .quienessomos{
+        padding: 0vh 15vh 10vh 15vh;
+    }
     .gridinicio {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -114,10 +117,8 @@
 
 @media (max-width: 768px) {
     .quienessomos{
-        padding-top: 5vh;
-        padding-bottom: 5vh;
         font-size: 0.7em;
-        padding: 0vh 5vh 1vh 5vh;
+        padding: 0vh 15vh 0vh 15vh;
     }
     .quiensoy{
         display: none;
@@ -154,3 +155,7 @@
       .img__in23 { grid-area: img__in23; }
       .img__in24 { grid-area: img__in24; }
 }
+@media (max-width: 425px) {
+    .quienessomos{
+        padding: 0vh 5vh 0vh 5vh;
+    } }
